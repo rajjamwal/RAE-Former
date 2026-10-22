@@ -41,7 +41,7 @@ Traditional deep learning models for EEG emotion recognition often suffer from *
 
 ---
 
-## ⚙️ Installation & Dataset Preparation
+## Installation & Dataset Preparation
 
 ### 1. Install Dependencies
 ```bash
