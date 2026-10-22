@@ -54,7 +54,7 @@ pip install -r requirements.txt
 * **DEAP Dataset:** Request access from the [official DEAP website](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/) and place the 32 preprocessed Python `.dat` files (`s01.dat` to `s32.dat`) inside `./data/deap/`.
 * **DREAMER Dataset:** Download `DREAMER.mat` from [Zenodo](https://zenodo.org/record/546113) and place it inside `./data/dreamer/DREAMER.mat`.
 
-*(Update `DEAP_PATH` or `DREAMER_FILE` inside the `Config` class of each script to match your local dataset path).*
+*(Update `DEAP_PATH` or `DREAMER_FILE` inside the `Config` class of each script to match your local dataset path and run using `python script_name.py`).*
 
 ---
 
