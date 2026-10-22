@@ -26,9 +26,10 @@ Traditional deep learning models for EEG emotion recognition often suffer from *
 
 ```text
 ├── loso/                               # Strict Leave-One-Subject-Out (LOSO) evaluation scripts
-│   ├── deap_loso.py                    # 32-Fold LOSO 
+│   ├── deap_loso.py                    # 32-Fold LOSO for deap
+│   └── dreamer_loso.py                 # 23-Fold LOSO for dreamer
+│   └── without_DE_loso.py              # ablation without differential features
 │   └── vanilla_AE_loso.py              # 32-Fold LOSO with vanilla AutoEncoder ablation
-│   └── without_DE_loso.py              # ablation without differential features 
 ├── subject_dependent/                  # 10-Fold Trial-Wise Subject-Dependent benchmarks
 │   ├── trialwise_with_ablation.py      # RAE-Former (S) variant with band ablation
 │   └── trialwise_heavy.py              # RAE-Former (H) variant
