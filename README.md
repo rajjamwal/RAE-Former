@@ -75,12 +75,3 @@ pip install -r requirements.txt
 
 If you find this repository or our paper useful in your research, please cite:
 
-```bibtex
-@inproceedings{jamwal2026raeformer,
-  author    = {Jamwal, Raj and Nigam, Jyoti and Rathore, Abhishek and Kumar, Ravi and Bhavsar, Arnav},
-  title     = {RAE-Former: A Decoupled Spatio-Temporal Pipeline for EEG-Based Emotion Recognition},
-  booktitle = {Indian Conference on Computer Vision, Graphics, and Image Processing (ICVGIP 2026)},
-  year      = {2026},
-  publisher = {ACM}
-}
-```
